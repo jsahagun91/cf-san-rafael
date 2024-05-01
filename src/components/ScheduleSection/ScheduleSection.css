@@ -27,8 +27,8 @@ h5 {
 }
 
 .schedule-item {
-    width: 17vh; /* Fixed width */
-    height: 17vh; /* Fixed height */
+    width: 16vh; /* Fixed width */
+    height: 16vh; /* Fixed height */
     margin: 0 10px; /* Add horizontal spacing */
     flex: 0 0 auto; /* Don't grow, don't shrink, and be automatically based on content */
     display: flex; /* Flex to align content inside */
