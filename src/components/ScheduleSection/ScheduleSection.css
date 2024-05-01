@@ -27,8 +27,8 @@ h5 {
 }
 
 .schedule-item {
-    width: 15vh; /* Fixed width */
-    height: 15vh; /* Fixed height */
+    width: 17vh; /* Fixed width */
+    height: 17vh; /* Fixed height */
     margin: 0 10px; /* Add horizontal spacing */
     flex: 0 0 auto; /* Don't grow, don't shrink, and be automatically based on content */
     display: flex; /* Flex to align content inside */
@@ -46,7 +46,7 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+    gap: 10px;
 }
 
 .team img {
