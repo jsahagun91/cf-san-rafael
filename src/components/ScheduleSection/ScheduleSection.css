@@ -49,14 +49,14 @@ h5 {
 }
 
 .team img {
-    width: 50px; /* Larger logo for visibility */
-    height: 50px; /* Maintain aspect ratio */
+    width: 35px; /* Larger logo for visibility */
+    height: 35px; /* Maintain aspect ratio */
     margin-right: 10px; /* Space between logo and text */
 }
 
 .team p {
     margin: 0; /* Remove default margin */
-    font-size: .8rem; /* Larger font size */
+    font-size: .75rem; /* Larger font size */
 }
 
 .date-time {
