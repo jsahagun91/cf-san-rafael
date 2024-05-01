@@ -1,0 +1,83 @@
+.services-container {
+    height: 50vh;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.carousel {
+    height: 40vh;
+    cursor: grab;
+    overflow: hidden;
+    margin: 0 0;
+    display: flex; /* Ensure this is flex to control the inner elements properly */
+    align-items: center; /* This centers the items vertically */
+}
+
+.item {
+    height: 250px; /* Adjust height based on your content needs */
+    max-height: 250px; /* Minimum height for smaller screens or less content */
+    max-width: 250px; /* Minimum width to ensure readability */
+    width: 250px; /* Adjust width to fit your design */
+    padding: 20px; /* Reduced padding for better space usage */
+    margin: 10px; /* Spacing between items */
+    border-radius: 10px; /* Smoother border radius */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    background-color: #fff; /* Light background for better readability */
+    display: flex; /* Flex to better control inner content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; 
+    text-align: center; /* Center text */
+    color: white; /* Darker text for contrast */
+    background-color: black;
+    font-size: 1.2rem; /* Larger font size for readability */
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-title {
+    font-size: 1.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Makes the title stand out */
+    margin-bottom: 0.5rem; /* Spacing between title and description */
+}
+
+.item-description {
+    font-size: 1rem; /* Adjust size as needed */
+    margin-bottom: 0.5rem; /* Spacing between description and price */
+}
+
+.item-price {
+    font-size: 1.2rem; /* Adjust size as needed */
+    font-weight: bold; /* Makes the price stand out */
+}
+
+.inner-carousel {
+    margin-left: 20px;
+    height: 40vh;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+
+    .services-container {
+        height: 40vh;
+    }
+    .inner-carousel {
+        height: 30vh;
+    }
+
+    .item {
+        height: 200px;
+        width: 200px; /* Take more screen width on small devices */
+        padding: 40px;
+        font-size: 1rem; /* Slightly smaller font on small devices */
+    }
+
+}

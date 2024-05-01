@@ -1,0 +1,92 @@
+.schedule-container {
+    background-color: white; /* Dark background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Subtle shadow for depth */
+    color: white; /* White text for contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;   
+}
+
+h5 {
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
+.schedule-carousel {
+    display: flex; /* Ensures the items are in a row */
+    /* scroll-snap-type: x mandatory; /* Optional: enables snap scrolling */
+} 
+
+.schedule-inner-carousel {
+    display: flex; /* Ensures the items are in a row */
+    min-width: 100%; /* Ensures it takes at least the width of the carousel */
+    transition: transform 0.5s; /* Smooth transition for scrolling */
+    will-change: transform; /* Optimizes animations */
+}
+
+.schedule-item {
+    width: 15vh; /* Fixed width */
+    height: 15vh; /* Fixed height */
+    margin: 0 10px; /* Add horizontal spacing */
+    flex: 0 0 auto; /* Don't grow, don't shrink, and be automatically based on content */
+    display: flex; /* Flex to align content inside */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    color: white;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team img {
+    width: 50px; /* Larger logo for visibility */
+    height: 50px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.team p {
+    margin: 0; /* Remove default margin */
+    font-size: .8rem; /* Larger font size */
+}
+
+.date-time {
+    font-size: 0.8rem; /* Smaller than team name for hierarchy */
+    color: white; /* Lighter grey for less emphasis */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .schedule-container {
+        padding: 10px;
+    }
+
+    .schedule-item {
+        width: 12vh;
+        height: 12vh;
+        flex-direction: column; /* Stack elements */
+        justify-content: center; /* Center content vertically */
+    }
+
+    .team img {
+        width: 30px; /* Smaller logo */
+        height: 30px;
+    }
+
+    .team p {
+        font-size: .7rem; /* Smaller font for smaller screens */
+    }
+
+    .date-time {
+        font-size: 0.7rem;
+    }
+}

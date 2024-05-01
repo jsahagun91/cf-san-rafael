@@ -1,0 +1,57 @@
+.navbar {
+  background-color: #C02A21; /* Navbar background color */
+  color: #ffffff;
+  height: 60px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; /* Horizontal padding */
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem; /* Logo text size */
+  font-weight: bold; /* Make the logo text bold */
+  color: #ffffff; /* Logo text color */
+  text-decoration: none; /* Remove underline from logo text */
+}
+
+.navbar-links {
+  list-style: none; /* Remove list bullets */
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  padding: 0 15px; /* Space between the menu items */
+}
+
+.navbar-links a {
+  text-decoration: none; /* Remove underline from links */
+  color: #ffffff; /* Color of navbar item */
+  font-size: 1rem; /* Size of the navbar item text */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-links a:hover {
+  color: #dddddd; /* Color of navbar item on hover */
+}
+
+.contact-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  margin-left: 15px; /* Space between the icons */
+  font-size: 30px; /* Icon size */
+  color: #ffffff; /* Icon color */
+}
+

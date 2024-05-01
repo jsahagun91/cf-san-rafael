@@ -1,0 +1,84 @@
+.gallery-container {
+    height: 50vh;
+}
+
+h2 {
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
+
+.gallery-carousel {
+    height: 40vh;
+    cursor: grab;
+    overflow: hidden;
+    margin: 0 0;
+    display: flex; /* Ensure this is flex to control the inner elements properly */
+    align-items: center; /* This centers the items vertically */
+}
+
+.gallery-item {
+    height: 250px; /* Adjust height based on your content needs */
+    max-height: 250px; /* Minimum height for smaller screens or less content */
+    max-width: 250px; /* Minimum width to ensure readability */
+    width: 250px; /* Adjust width to fit your design */
+    padding: 20px; /* Reduced padding for better space usage */
+    margin: 10px; /* Spacing between items */
+    border-radius: 10px; /* Smoother border radius */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: #fff; /* Light background for better readability */
+    display: flex; /* Flex to better control inner content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; 
+    text-align: center; /* Center text */
+    color: white; /* Darker text for contrast */
+    font-size: 1.2rem; /* Larger font size for readability */
+
+    background-size: cover !important; /* Ensures the entire image fits within the div */
+    background-position: center !important; /* Centers the image in the div */
+    background-repeat: no-repeat !important; 
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-title {
+    font-size: 1.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Makes the title stand out */
+    margin-bottom: 0.5rem; /* Spacing between title and description */
+}
+
+.item-description {
+    font-size: 1rem; /* Adjust size as needed */
+    margin-bottom: 0.5rem; /* Spacing between description and price */
+}
+
+.item-price {
+    font-size: 1.2rem; /* Adjust size as needed */
+    font-weight: bold; /* Makes the price stand out */
+}
+
+.gallery-inner-carousel {
+    margin-left: 20px;
+    height: 40vh;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+
+    .inner-carousel {
+        height: 30vh;
+    }
+
+    .gallery-item {
+        height: 200px;
+        width: 200px; /* Take more screen width on small devices */
+        padding: 40px;
+        font-size: 1rem; /* Slightly smaller font on small devices */
+    }
+
+}
