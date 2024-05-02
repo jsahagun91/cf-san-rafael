@@ -3,5 +3,11 @@
   font-family: "Anton", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+
 }
 
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}

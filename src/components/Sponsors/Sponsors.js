@@ -117,6 +117,7 @@ const Marquee = styled.div`
         hsl(0 0% 0% / 1) 90%,
         hsl(0 0% 0% / 0)
     );
+
 `;
 
 const scrollX = keyframes`
