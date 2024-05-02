@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} C.F San Rafael. All rights reserved.</p>
-        <p style={{fontSize: '12px', fontFamily: 'Times New Roman', }}>powered by <a style={{ color: 'white'}}href='https://www.pailabs.io'>pai labs</a></p>
+        <p style={{fontSize: '12px', fontFamily: 'Times New Roman', }}>powered by <a style={{ color: 'white', fontFamily: 'Times New Roman'}}href='https://www.pailabs.io'>pai labs</a></p>
       </div>
     </footer>
   );
