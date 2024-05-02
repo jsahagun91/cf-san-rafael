@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import './App.css'; // If using CSS
 // import ServicesSection from './components/ServicesSection/ServicesSection'
 import GallerySection from "./components/GallerySection/GallerySection";
-import ScheduleSection from "./components/ScheduleSection/ScheduleSection";
+import ScheduleSection from "./components/ScheduleSection";
 import Roster from "./components/Roster/Roster";
 
 function App() {
