@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import GallerySection from "./components/GallerySection/GallerySection";
 import ScheduleSection from './components/ScheduleSection/ScheduleSection'
 import Roster from "./components/Roster/Roster";
+import Sponsors from "./components/Sponsors/Sponsors";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Roster />
       {/* <ServicesSection /> */}
       <GallerySection />
+      <Sponsors />
       <Footer />
     </Router>
   );
