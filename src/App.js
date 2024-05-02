@@ -5,7 +5,7 @@ import HeroSection from "./components/HeroSection/HeroSection";
 import Footer from "./components/Footer/Footer";
 // import ServicesSection from './components/ServicesSection/ServicesSection'
 import GallerySection from "./components/GallerySection/GallerySection";
-import ScheduleSection from "./components/ScheduleSection";
+import ScheduleSection from './components/ScheduleSection/ScheduleSection'
 import Roster from "./components/Roster/Roster";
 
 function App() {
