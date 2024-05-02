@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="contact-icons">
         {/* <Link to="tel:+17073602683" className="nav-icon"><FaPhone /></Link>
         <Link to="sms:+17073602683" className="nav-icon"><FaSms /></Link> */}
-        <Link to="mailto:norcalshockwaves@gmail.com" className="nav-icon"><FaEnvelope /></Link>
+        <Link to="mailto:cdfsanrafael@gmail.com" className="nav-icon"><FaEnvelope /></Link>
         {/* <Link to="/location" className="nav-icon"><FaMapPin /></Link> */}
       </div>
     </nav>

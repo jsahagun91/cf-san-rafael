@@ -13,7 +13,7 @@ const Footer = () => {
         </section>
         <section className="footer-section">
           <h4>Contact Us</h4>
-          <p>Email: norcalshockwaves@gmail.com</p>
+          <p>Email: cdfsanrafael@gmail.com</p>
           {/* <p>Phone: (707) 360-2683</p> */}
         </section>
         <section className="footer-section">
