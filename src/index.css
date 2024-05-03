@@ -11,3 +11,14 @@
   width: 100%;
   overflow-x: hidden;
 }
+
+@media (orientation: portrait) {
+  #root {
+    transform: rotate(0deg);
+  }
+}
+@media (orientation: landscape) {
+  #root {
+    transform: rotate(90deg);
+  }
+}
