@@ -1,12 +1,4 @@
 .schedule-container {
-    background-color: white; /* Dark background */
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Subtle shadow for depth */
-    color: white; /* White text for contrast */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 15vh;   
 }
 
@@ -16,14 +8,16 @@ h5 {
 }
 .schedule-carousel {
     display: flex; /* Ensures the items are in a row */
-    /* scroll-snap-type: x mandatory; /* Optional: enables snap scrolling */
+    margin: 0 0;
+    align-items: center;
 } 
 
 .schedule-inner-carousel {
     display: flex; /* Ensures the items are in a row */
     min-width: 100%; /* Ensures it takes at least the width of the carousel */
-    transition: transform 0.5s; /* Smooth transition for scrolling */
-    will-change: transform; /* Optimizes animations */
+   
+
+    margin-left: 50px;
 }
 
 .schedule-item {
