@@ -1,10 +1,11 @@
 .schedule-container {
-    height: 15vh;   
+    height: 20vh;   
 }
 
 h5 {
+    padding-top: 5px;
     margin-left: 30px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 .schedule-carousel {
     display: flex; /* Ensures the items are in a row */
@@ -14,10 +15,8 @@ h5 {
 
 .schedule-inner-carousel {
     display: flex; /* Ensures the items are in a row */
-    min-width: 100%; /* Ensures it takes at least the width of the carousel */
-   
-
-    margin-left: 50px;
+    min-width: 100vw; /* Ensures it takes at least the width of the carousel */
+    margin-left: 20px;
 }
 
 .schedule-item {
@@ -80,6 +79,7 @@ h5 {
 @media (max-width: 768px) {
     .schedule-container {
         padding: 10px;
+        height: 15vh;
     }
 
     .schedule-item {
