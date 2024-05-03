@@ -13,12 +13,12 @@
 }
 
 @media (orientation: portrait) {
-  #root {
+  body {
     transform: rotate(0deg);
   }
 }
 @media (orientation: landscape) {
-  #root {
+  body {
     transform: rotate(90deg);
   }
 }
