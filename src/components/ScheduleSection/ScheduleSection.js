@@ -28,7 +28,7 @@ function ScheduleSection() {
         
         // Set initial position with a delay to ensure layout is updated
         setTimeout(() => {
-            controls.start({ x: initialXOffset + 20 });
+            controls.start({ x: initialXOffset + 10 });
         }, 100);
     }, [controls]);
 
