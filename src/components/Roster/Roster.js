@@ -4,6 +4,9 @@ import './Roster.css'
 const players = [
     {name: "Gregory C. Brown", jerseyNumber: 20, position: "Goalkeeper", nationality: "🇺🇸"},
     {name: "Diego G. Gonzalez", jerseyNumber: 20, position: "Defense", nationality: "🇲🇽"},
+    {name: "Wilson S. Barahona", jerseyNumber: 20, position: "Forward", nationality: "🇺🇸"},
+    {name: "Angel Hidalgo", jerseyNumber: 20, position: "Midfield", nationality: "🇺🇸"},
+
 ];
 
 function Roster() {

@@ -45,8 +45,25 @@ h5 {
 .team {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
     gap: 2px;
+}
+
+.team-info {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.team-score {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.team-logo {
+    margin-right: 10px;
 }
 
 .team img {
