@@ -12,13 +12,8 @@
   overflow-x: hidden;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 768px)  {
   body {
     transform: rotate(0deg);
-  }
-}
-@media (orientation: landscape) {
-  body {
-    transform: rotate(90deg);
   }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css'; // Make sure to create a Footer.css file for styling
-import { FaInstagram } from "react-icons/fa6";
+import { FaInstagram, FaFacebook } from "react-icons/fa6";
 
 
 const Footer = () => {
@@ -19,9 +19,8 @@ const Footer = () => {
         <section className="footer-section">
           <h4>Follow Us</h4>
           <div className="social-links">
-            {/* <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-            <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a> */}
             <a href="https://www.instagram.com/cfsanrafael/" target="_blank" rel="noopener noreferrer"><FaInstagram/></a>
+            <a href="https://www.facebook.com/people/CF-San-Rafael/61558194561358/" target="_blank" rel="noopener noreferrer"><FaFacebook/></a>
           </div>
         </section>
       </div>
