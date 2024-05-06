@@ -14,7 +14,7 @@ function ScheduleSection() {
     const controls = useAnimation();
     const items = [
         { id: 1, dateTime: '4/20/24 7:00 PM', team1: { logoUrl: logo, name: 'CFSR', score: 6 }, team2: { logoUrl: capitolCity, name: 'CC', score: 0 }},
-        { id: 2, dateTime: '5/5/24 7:00 PM', team1: { logoUrl: afc, name: 'AFCS', score: '' }, team2: { logoUrl: logo, name: 'CFSR', score: '' }},
+        { id: 2, dateTime: '5/5/24 7:00 PM', team1: { logoUrl: afc, name: 'AFCS', score: '0' }, team2: { logoUrl: logo, name: 'CFSR', score: '3' }},
         { id: 3, dateTime: '5/18/24 2:00 PM', team1: { logoUrl: sv, name: 'AFCS', score: '' }, team2: { logoUrl: logo, name: 'CFSR', score: '' }},
         { id: 4, dateTime: '5/25/24 2:00 PM', team1: { logoUrl: logo, name: 'CFSR', score: '' }, team2: { logoUrl: sfc, name: 'SFC', score: '' }},
     ];
