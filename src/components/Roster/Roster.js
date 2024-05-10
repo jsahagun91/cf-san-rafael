@@ -2,9 +2,9 @@ import React from "react";
 import './Roster.css'
 
 const players = [
-    {name: "Gregory C. Brown", jerseyNumber: 20, position: "Goalkeeper", nationality: "🇺🇸"},
-    {name: "Diego G. Gonzalez", jerseyNumber: 20, position: "Defense", nationality: "🇲🇽"},
-    {name: "Wilson S. Barahona", jerseyNumber: 20, position: "Forward", nationality: "🇺🇸"},
+    {name: "Gregory C. Brown", jerseyNumber: 1, position: "Goalkeeper", nationality: "🇺🇸"},
+    {name: "Diego G. Gonzalez", jerseyNumber: 2, position: "Defense", nationality: "🇲🇽"},
+    {name: "Wilson S. Barahona", jerseyNumber: 3, position: "Forward", nationality: "🇺🇸"},
     {name: "Angel Hidalgo", jerseyNumber: 20, position: "Midfield", nationality: "🇺🇸"},
     {name: "Dave A. Mazariegos", jerseyNumber: 20, position: "Midfield", nationality: "🇺🇸"},
     {name: "Brennan R. Blondin", jerseyNumber: 20, position: "Forward", nationality: "🇺🇸"},

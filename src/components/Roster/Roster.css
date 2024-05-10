@@ -1,15 +1,26 @@
 .roster {
     width: 100%;
-    max-width: 600px;
+    max-width: 768px;
     margin: 0 auto;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background: #fff
+    background: #fff;
+    height: 50vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+thead tr {
+    position: sticky;
+    top: 0; /* Sticks to the top of the nearest scrolling ancestor */
+    background-color: #f2f2f2; /* Ensures the header background isn't transparent */
+    z-index: 10; /* Keeps the header above other content *
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin: 0; /* Added to fit within the .roster without additional spacing */
 }
 
 th, td {
@@ -18,9 +29,13 @@ th, td {
     border-bottom: 1px solid #ddd;
 }
 
+
+
 th {
     background-color: #f2f2f2;
 }
+
+
 
 @media (max-width: 768px) {
     th, td {
