@@ -24,7 +24,7 @@ const players = [
 function Roster() {
     return (
         <>
-        <h2>Roster</h2>
+        <h2 className="roster-h2">Roster</h2>
         <div className="roster">
             <table>
                 <thead>
